@@ -10,7 +10,7 @@
       "url": "/?startLive",
       "icons": [
         {
-          "src": "https://pwabuilder.com/assets/icons/icon_192.png",
+          "src": "icons/manifest-icon-192.maskable.png",
           "sizes": "192x192"
         }
       ]
@@ -65,12 +65,12 @@
   ],
   "screenshots": [
     {
-      "src": "assets/screenshots/1280x800-screenshot.png",
+      "src": "screenshots/1280x800-screenshot.png",
       "sizes": "1280x800",
       "type": "image/png"
     },
     {
-      "src": "assets/screenshots/750x1334-screenshot.png",
+      "src": "screenshots/750x1334-screenshot.png",
       "sizes": "750x1334",
       "type": "image/png"
     }
@@ -84,7 +84,7 @@
   "related_applications": [
     {
       "platform": "windows",
-      "url": "https://todler.vercel.app"
+      "url": "https://malay207.github.io/calculator"
     }
   ]
 }
