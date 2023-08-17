@@ -1,19 +1,31 @@
 {
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "shortcuts": [
+    {
+      "name": "Start Live Session",
+      "short_name": "Start Live",
+      "description": "Jump direction into starting or joining a live session",
+      "url": "/?startLive",
+      "icons": [
+        {
+          "src": "https://pwabuilder.com/assets/icons/icon_192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
   "protocol_handlers": [
     {
       "protocol": "mailto",
       "url": "/newEmail?to=%s"
     }
   ],
-  "display_override": [
-    "window-controls-overlay",
-    "standalone",
-    "browser"
-  ],
-  "name": "Todler",
-  "short_name": "todler",
+  "name": "calculator",
+  "short_name": "cal",
   "display": "standalone",
-  "description": "A free todo app",
+  "description": "A app for calculating",
   "lang": "en",
   "dir": "auto",
   "theme_color": "#F05321",
@@ -23,8 +35,7 @@
   "scope": "/",
   "start_url": "/",
   "categories": [
-    "todo app",
-    "task app"
+    "calculator"
   ],
   "icons": [
     {
@@ -65,7 +76,9 @@
     }
   ],
   "launch_handler": {
-    "client_mode": ["navigate-existing, auto"]
+    "client_mode": [
+      "navigate-existing, auto"
+    ]
   },
   "prefer_related_applications": false,
   "related_applications": [

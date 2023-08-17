@@ -1,8 +1,4 @@
-window.onload =
-    function () {
 
-        alert("hello let's calculate")
-    }
 function clean() {
     document.form.text.value = "";
 }
